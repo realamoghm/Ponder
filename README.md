@@ -35,7 +35,7 @@ Manually Download and install from the .apk file from the folder
 * Our app has many different pages, they all help to ensure maximum functionality from our app, it first presents you with a login page, this can be used to login to a Google or Facebook account or an in-app account which you can make using your email, it can also be used to access a signup page where you can make an account. 
 * After the signup/login page, you will be taken to a page where you can choose which topic you would like to take a quiz on, there are many different topics avaliable.
 * Once you choose a topic, you will begin the quiz and be taken to a question/answer set of pages where you take the quiz and at the end of the quiz you find out how many you got right and wrong.
-And it's as simple as that!
+* And it's as simple as that!
 
 ## How to use the app?
 * Ponder REQUIRES an internet connection over Wi-Fi or mobile data for full functionality.
