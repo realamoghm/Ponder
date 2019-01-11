@@ -32,7 +32,7 @@ Manually Download and install from the .apk file from the folder
 
 Install from the Google Play Store
 1. Navigate to the Google Play Store on your Android device
-2. Search up Ponder Quiz on the Google Play Store
+2. Search up “Ponder Quiz” by Premium Estate on the Google Play Store
 3. On the app page, click INSTALL
 4. Open the app and enjoy Ponder!!!
 
