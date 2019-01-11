@@ -3,7 +3,7 @@ This is the code used to build a electronic quiz app to quiz people about a vari
 
 If you are new to FBLA or Mobile App Development, then you should use this link https://www.fbla-pbl.org/competitive-event/mobile-application-development-fbla/ to read up on FBLA and Mobile App Development.
 
-However, Ponder is currently only supported on Android devices, we awere only able to create and test the app on Android devices, so Ponder is not currently supported on iOS.
+However, Ponder is currently only supported on Android devices, we were only able to create and test the app on Android devices, so Ponder is not currently supported on iOS.
 
 * The Purpose 
 * How to install the app?
