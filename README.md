@@ -44,6 +44,6 @@ And it's as simple as that!
 * After making an account, you can explore the full functionality of the app, such as taking a quiz.
 * Some credentials that you can use to login are displayed below:
 NOTICE: The following user account inforation does not correspond to any real people.
-	Username: marysue@testaccount.com
-	Password: password
+	** Username: marysue@testaccount.com
+	** Password: password
 * Remember, Ponder requires internet access for proper user signup and signin, Ponder may not be able to signup or signin without a proper internet connection.
