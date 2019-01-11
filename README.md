@@ -8,9 +8,7 @@ However, Ponder is currently only supported on Android devices, we awere only ab
 * The Purpose 
 * How to install the app?
 * The Different Parts Of The App
-* Downloading the Project 
-* Copyright 
-* Version/Release Information 
+* How to use the app 
 
 ## Purpose of the Project 
 Ponder was a project we were tasked to create, its main purpose is to quiz other people and help other people study for their FBLA topic. It helps people to practice for their FBLA competition and enhance their skills for their competition.
@@ -35,23 +33,15 @@ Manually Download and install from the .apk file from the folder
 Our app has many different pages, they all help to ensure maximum functionality from our app, it first presents you with a login page, this can be used to login to a Google or Facebook account or an in-app account which you can make using your email, it can also be used to access a signup page where you can make an account. 
 After the signup/login page, you will be taken to a page where you can choose which topic you would like to take a quiz on, there are many different topics avaliable.
 Once you choose a topic, you will begin the quiz and be taken to a question/answer set of pages where you take the quiz and at the end of the quiz you find out how many you got right and wrong.
-Our app also features a reward system to reward users for practicing using our app
 And it's as simple as that!
 
-## Downloading the Project
-It is important to note that this app is large and can take a long time and use a lot of space to download. If you would like to save time and space, there are some options that you can choose to download only the most current version of the Android project folder:
-
-* You can use the "Download Zip" button available through the main repository page.  Downloading the project as a .ZIP file will keep the size of the download manageable.
-
-## Copyright
-No part of this app may be modified or copied without direct written permission from one of its creators
-
-## Version/Release Information
-(Version 1.0, Built on 01/09/2019)
-
-Changes Include: 
-
-* Initial Build - Includes all features 
-    * Including Google Sign-In
-    * Email Login 
-    * Firebase integration to get the questions for the quizs as well as allow the user to sign in
+## How to use the app?
+* Ponder REQUIRES an internet connection over Wi-Fi or mobile data for full functionality
+You need to make an account for full functionality of the app, you cannot go past the Welcome screen without a account. 
+There are many ways to make a account, such as a Google Account or making an in-built app account with your email.
+After making an account, you can explore the full functionality of the app, such as taking a quiz.
+Some credentials that you can use to login are displayed below:
+NOTICE: The following user account inforation does not correspond to any real people.
+	Username: marysue@testaccount.com
+	Password: password
+Remember, Ponder requires internet access for proper user signup and signin, Ponder may not be able to signup or signin without a proper internet connection.
