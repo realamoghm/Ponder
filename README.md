@@ -8,7 +8,9 @@ However, Ponder is currently only supported on Android devices, we awere only ab
 * The Purpose 
 * How to install the app?
 * The Different Parts Of The App
-* How to use the app 
+* How to use the app?
+* Copyright 
+* Version/Release Information 
 
 ## Purpose of the Project 
 Ponder was a project we were tasked to create, its main purpose is to quiz other people and help other people study for their FBLA topic. It helps people to practice for their FBLA competition and enhance their skills for their competition.
@@ -36,7 +38,7 @@ Once you choose a topic, you will begin the quiz and be taken to a question/answ
 And it's as simple as that!
 
 ## How to use the app?
-* Ponder REQUIRES an internet connection over Wi-Fi or mobile data for full functionality
+* Ponder REQUIRES an internet connection over Wi-Fi or mobile data for full functionality.
 You need to make an account for full functionality of the app, you cannot go past the Welcome screen without a account. 
 There are many ways to make a account, such as a Google Account or making an in-built app account with your email.
 After making an account, you can explore the full functionality of the app, such as taking a quiz.
