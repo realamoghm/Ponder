@@ -28,7 +28,7 @@ Manually Download and install from the .apk file from the folder
 7.  Once you either downloaded a file manager or used the installed one on your device, navigate to where "Ponder.apk" is downloaded
 8. Then select the "Ponder.apk"  and click 'INSTALL'. If it asks, select the 'Package Installer' program to install the apk file with. On the next next screen, the app's permission will be listed. click "INSTALL" again.
 9. Once the app is installed, you can select "OPEN" or click "DONE" and find the Tomely app in your app menu.
-10. Open the app and enjoy the rich features provided by Tomely!
+10. Open the app and enjoy Ponder!!!
 
 
 ## Different Parts of the Project
