@@ -30,6 +30,12 @@ Manually Download and install from the .apk file from the folder
 9. Once the app is installed, you can select "OPEN" or click "DONE" and find the Tomely app in your app menu.
 10. Open the app and enjoy Ponder!!!
 
+Install from the Google Play Store
+1. Navigate to the Google Play Store on your Android device
+2. Search up Ponder Quiz on the Google Play Store
+3. On the app page, click INSTALL
+4. Open the app and enjoy Ponder!!!
+
 
 ## Different Parts of the Project
 * Our app has many different pages, they all help to ensure maximum functionality from our app, it first presents you with a login page, this can be used to login to a Google or Facebook account or an in-app account which you can make using your email, it can also be used to access a signup page where you can make an account. 
