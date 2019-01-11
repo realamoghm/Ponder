@@ -23,7 +23,7 @@ Manually Download and install from the .apk file from the folder
 2. Open your Android devices internet browser
 3. Enter https://tinyurl.com/ponderquizapp and press "Enter"
 4. You will be redirected to the Ponder application folder
-5. 'ente directions to get to .apk file here"
+5. Navigate to PONDER APK and click Ponder.apk
 6. If you don't already have a file manager installed you will have to install one, we recommend "File Browser by Astro" for Android, if you already have a file manager installed, you can skip this step
 7.  Once you either downloaded a file manager or used the installed one on your device, navigate to where "Ponder.apk" is downloaded
 8. Then select the "Ponder.apk"  and click 'INSTALL'. If it asks, select the 'Package Installer' program to install the apk file with. On the next next screen, the app's permission will be listed. click "INSTALL" again.
