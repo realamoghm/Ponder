@@ -23,6 +23,66 @@
           }
         },
         {
+          "client_id": "549403158478-tti2j54q79sesmbpim83vpbmko9egulh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ka52.ponder",
+            "certificate_hash": "426bf81fb51909a1ac229318daf90d6784cfae8a"
+          }
+        },
+        {
+          "client_id": "549403158478-fkcr9j0cr2lt52ju9k7gmlttsfrmrhe9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ka52.ponder",
+            "certificate_hash": "bb49e2ebf30842bf6c23ceb3841cdcff36112322"
+          }
+        },
+        {
+          "client_id": "549403158478-f4aejll2cpkeub5rvc3kvkp70s0rul7l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCad5Ffot2Hz_OBYmN2D4Axw95PdzZf15s"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "549403158478-f4aejll2cpkeub5rvc3kvkp70s0rul7l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:549403158478:android:0c2180dcc2e6a6c6",
+        "android_client_info": {
+          "package_name": "com.fbla.ka52.ponder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "549403158478-k8kegj5fs18nt6kmp2p5g9csq6jt6l2d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fbla.ka52.ponder",
+            "certificate_hash": "bb49e2ebf30842bf6c23ceb3841cdcff36112322"
+          }
+        },
+        {
           "client_id": "549403158478-f4aejll2cpkeub5rvc3kvkp70s0rul7l.apps.googleusercontent.com",
           "client_type": 3
         }

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2019
+  ~ All rights reserved Kevin Antony, Amogh Mehta, Amit Ashok
+  -->
+
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/background_diagnol_gradient"
+    android:layout_height="match_parent"
+    tools:context=".Navigation">
+
+
+    <Button
+        android:id="@+id/settings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:background="@drawable/text_holder_main"
+        android:text="Settings"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/info"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <Button
+        android:id="@+id/info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/text_holder_main"
+        android:text="Info"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/bug_report"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/settings" />
+
+    <Button
+        android:id="@+id/bug_report"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/text_holder_main"
+        android:text="Bug Report"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/info" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="7dp"
+        app:layout_constraintBottom_toTopOf="@+id/settings"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ponder_logo_small" />
+
+    <Button
+        android:id="@+id/backog"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/back_button"
+        android:backgroundTint="@color/colorAccent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>

@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2019
+  ~ All rights reserved Kevin Antony, Amogh Mehta, Amit Ashok
+  -->
+
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -10,7 +15,7 @@
     <ImageView
         android:id="@+id/imageView12"
         android:layout_width="0dp"
-        android:layout_height="294dp"
+        android:layout_height="275dp"
         android:scaleType="fitXY"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

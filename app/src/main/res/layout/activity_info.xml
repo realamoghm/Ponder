@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2019
+  ~ All rights reserved Kevin Antony, Amogh Mehta, Amit Ashok
+  -->
+
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/background_diagnol_gradient"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Info">
+
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="39dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="12dp"
+        android:text="Welcome to Ponder!"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="133dp"
+        android:text="Ponder is a quiz app that prepares you for your FBLA competition. This app has many categories and quizzes that help test and improve your skills. Ponder offers a wide reach in different areas in order to meet specific needs. On behalf of our team, we would like to welcome you to Ponder!"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+    <Button
+        android:id="@+id/back2"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/back_button"
+        android:backgroundTint="@color/cardview_light_background"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="172dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ponder_logo_small" />
+</android.support.constraint.ConstraintLayout>

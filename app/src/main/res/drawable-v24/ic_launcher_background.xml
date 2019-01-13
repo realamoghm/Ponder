@@ -1,0 +1,29 @@
+<!--
+  ~ Copyright (c) 2019
+  ~ All rights reserved Kevin Antony, Amogh Mehta, Amit Ashok
+  -->
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:aapt="http://schemas.android.com/aapt"
+        android:width="108dp"
+        android:height="108dp"
+        android:viewportWidth="309.17874"
+        android:viewportHeight="309.17874">
+    <group android:translateX="-25.410627"
+            android:translateY="-165.41063">
+      <path
+          android:pathData="M0,0h360v640h-360z">
+        <aapt:attr name="android:fillColor">
+          <gradient 
+              android:startY="0"
+              android:endY="640"
+              android:startX="0"
+              android:endX="360"
+              android:type="linear">
+            <item android:offset="0" android:color="#FFCC1C1C"/>
+            <item android:offset="1" android:color="#FF0D0043"/>
+          </gradient>
+        </aapt:attr>
+      </path>
+    </group>
+</vector>

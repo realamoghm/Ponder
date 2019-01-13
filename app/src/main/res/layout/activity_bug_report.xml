@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2019
+  ~ All rights reserved Kevin Antony, Amogh Mehta, Amit Ashok
+  -->
+
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/background_diagnol_gradient"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".bug_report">
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Username"
+        android:inputType="text"
+        android:textColor="@color/colorPrimaryDark"
+        android:textColorHint="@color/colorAccent"
+        app:layout_constraintBottom_toTopOf="@+id/email"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="9dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/colorPrimaryDark"
+        android:textColorHint="@color/colorAccent"
+        app:layout_constraintBottom_toTopOf="@+id/bug"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/username" />
+
+    <EditText
+        android:id="@+id/bug"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Bug"
+        android:inputType="text"
+        android:textColor="@color/colorPrimaryDark"
+        android:textColorHint="@color/colorAccent"
+        app:layout_constraintBottom_toTopOf="@+id/feedback"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/email" />
+
+    <EditText
+        android:id="@+id/feedback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Feedback"
+        android:inputType="text"
+        android:singleLine="false"
+        android:textColor="@color/colorPrimaryDark"
+        android:textColorHint="@color/colorAccent"
+        app:layout_constraintBottom_toTopOf="@+id/submit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bug" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bug Report"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/username"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/rounded_button"
+        android:text="Submit"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/feedback" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/textView6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ponder_logo_small" />
+
+</android.support.constraint.ConstraintLayout>

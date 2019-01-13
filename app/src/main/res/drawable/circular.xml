@@ -1,3 +1,8 @@
+<!--
+  ~ Copyright (c) 2019
+  ~ All rights reserved Kevin Antony, Amogh Mehta, Amit Ashok
+  -->
+
 <shape android:useLevel="true"
     android:innerRadiusRatio="2.3"
     android:shape="ring"

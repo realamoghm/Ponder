@@ -1,7 +1,12 @@
+<!--
+  ~ Copyright (c) 2019
+  ~ All rights reserved Kevin Antony, Amogh Mehta, Amit Ashok
+  -->
+
 <resources>
 
-    <string name="facebook_app_id">306568716657156</string>
-    <string name="fb_login_protocol_scheme">fb306568716657156</string>
+    <string name="facebook_app_id">225366388340005</string>
+    <string name="fb_login_protocol_scheme">fb225366388340005</string>
 
     <string name="app_name">Ponder</string>
     <string name="text_holder">text holder</string>

@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2019
+  ~ All rights reserved Kevin Antony, Amogh Mehta, Amit Ashok
+  -->
+
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -21,20 +26,19 @@
         app:srcCompat="@drawable/ponder_logo_small" />
 
     <Button
-        android:id="@+id/button13"
+        android:id="@+id/cybersecurity"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="108dp"
+        android:layout_marginTop="36dp"
         android:layout_marginEnd="8dp"
         android:background="@drawable/cyber_security_button"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView14" />
 
     <Button
-        android:id="@+id/button14"
+        android:id="@+id/computerproblem"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -44,44 +48,61 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button17" />
+        app:layout_constraintTop_toBottomOf="@+id/parlipro" />
 
     <Button
-        android:id="@+id/button15"
+        android:id="@+id/middletonfbla"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
-        android:background="@drawable/mobile_app_development_button"
+        android:background="@drawable/ic_middleton_fbla"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button14" />
+        app:layout_constraintTop_toBottomOf="@+id/globalbusiness" />
 
     <Button
-        android:id="@+id/button16"
+        android:id="@+id/globalbusiness"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
-        android:background="@drawable/website_design_button"
+        android:background="@drawable/global_business"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button15" />
+        app:layout_constraintTop_toBottomOf="@+id/computerproblem" />
 
     <Button
-        android:id="@+id/button17"
+        android:id="@+id/parlipro"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
-        android:background="@drawable/coding_and_programming_button"
+        android:background="@drawable/parli_pro"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button13" />
+        app:layout_constraintTop_toBottomOf="@+id/cybersecurity" />
+
+    <Button
+        android:id="@+id/menu"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/menu"
+        android:backgroundTint="@color/cardview_light_background"
+        app:layout_constraintBottom_toTopOf="@+id/cybersecurity"
+        app:layout_constraintEnd_toStartOf="@+id/imageView14"
+        app:layout_constraintHorizontal_bias="0.296"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.462" />
 </android.support.constraint.ConstraintLayout>

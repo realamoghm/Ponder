@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2019
+  ~ All rights reserved Kevin Antony, Amogh Mehta, Amit Ashok
+  -->
+
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_diagnol_gradient"
+    tools:context=".quiz3">
+
+
+    <ImageView
+        android:id="@+id/imageView2q3"
+        android:layout_width="34dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:contentDescription="logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ponder_logo_small"
+        tools:ignore="HardcodedText" />
+
+
+    <TextView
+        android:id="@+id/score-textq3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="Score:"
+        android:textColor="@color/colorAccent"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/cardq3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/scoreq3"
+        android:layout_width="26dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="0"
+        android:textAlignment="viewEnd"
+        android:textColor="@android:color/holo_blue_bright"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/cardq3"
+        app:layout_constraintEnd_toStartOf="@+id/imageView2q3"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/score-textq3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.511" />
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardq3"
+        android:layout_width="match_parent"
+        android:layout_height="175dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        app:cardBackgroundColor="@android:color/transparent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2q3">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:background="@drawable/text_holder_main"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textViewq3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="8dp"
+                android:paddingEnd="2dp"
+
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:textAllCaps="false"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </android.support.constraint.ConstraintLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+
+    <Button
+        android:id="@+id/buttonq3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autoText="true"
+        android:background="@drawable/rounded_button"
+        android:elegantTextHeight="false"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="14sp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/button2q3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardq3" />
+
+    <Button
+        android:id="@+id/button2q3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_button"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text=""
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimaryDark"
+        app:layout_constraintBottom_toTopOf="@+id/button3q3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonq3" />
+
+    <Button
+        android:id="@+id/button3q3"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_button"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimaryDark"
+        app:layout_constraintBottom_toTopOf="@+id/button4q3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button2q3" />
+
+    <Button
+        android:id="@+id/button4q3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/rounded_button"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimaryDark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button3q3"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+
+</android.support.constraint.ConstraintLayout>
