@@ -4,7 +4,7 @@
     <string name="firebase_database_url" translatable="false">https://ponder-d9c31.firebaseio.com</string>
     <string name="gcm_defaultSenderId" translatable="false">549403158478</string>
     <string name="google_api_key" translatable="false">AIzaSyCad5Ffot2Hz_OBYmN2D4Axw95PdzZf15s</string>
-    <string name="google_app_id" translatable="false">1:549403158478:android:0c2180dcc2e6a6c6</string>
+    <string name="google_app_id" translatable="false">1:549403158478:android:7c35b6a17873c98f</string>
     <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCad5Ffot2Hz_OBYmN2D4Axw95PdzZf15s</string>
     <string name="google_storage_bucket" translatable="false">ponder-d9c31.appspot.com</string>
     <string name="project_id" translatable="false">ponder-d9c31</string>

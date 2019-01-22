@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Personal\\Downloads\\fblaPonder-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-port\\values-port.xml",
+            "outputFile": "/home/ka52/AndroidStudioProjects/fblaPonder-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-port/values-port.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Personal\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\7169409e3b91500d965776c184a6853f\\res\\values-port\\values-port.xml",
+                    "source": "/home/ka52/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/4cb209e0262e7acacc3c95d8689d9229/res/values-port/values-port.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
