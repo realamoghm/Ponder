@@ -1,10 +1,10 @@
+## What is this document?
+A README.md document is often used to explain a project and its file structure, designed usage, and its licensing/copyrights. It is often saved/written with the extension '.md' because it is designed to be opened on any computer.
+
 ## Welcome to Ponder!
 This is the code used to build Ponder Quiz, which is an electronic quiz app used to quiz people trying to study for their FBLA category on a variety of questions to help them better study for their category. 
 
 We developed Ponder for the FBLA submission category Mobile Application Development, if you are new to FBLA or do not know what Mobile Application Development is, you can learn more at https://www.fbla-pbl.org/competitive-event/mobile-application-development-fbla/.
-
-## What is this document?
-A README.md document is often used to explain a project and its file structure, designed usage, and its licensing/copyrights. It is often saved/written with the extension '.md' because it is designed to be opened on any computer.
 
 ## Table Of Contents
 We know this README is long and it can get confusing, so we included an Index so that you can find what you are looking for easily and efficently.
@@ -64,6 +64,7 @@ Ponder Quiz was designed from the ground up to help people preparing for FBLA. I
 ## How do you use Ponder Quiz?
 1. Select the appropiate app icon on your device. After selection, you should be greeted with a loading screen with Ponder written on it.
 2. After the loading screen, you should see a login page where you have the option to...
-	1. Continue as guest
+	1. Continue as guest with limited functionality
 	2. Make an Ponder Quiz account
 	3. Sign in with an existing Ponder Quiz account
+3. 	After you sign into Ponder Quiz, you'll see a main page where all the currently avaliable quizzes will be listed. 
