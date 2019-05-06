@@ -70,8 +70,8 @@ Ponder Quiz was designed from the ground up to help people preparing for FBLA. I
 3. 	After you sign into Ponder Quiz, you'll see a main page where all the currently available quizzes will be listed. 
 
 ## What do I need to login?
-There are many ways to use Ponder Quiz. You can continue as a guest from the login screen, this will limit functionality however as you cannot use PonderChat without an Ponder Quiz account. You also have the option to login using a Ponder Quiz account, this is the only way to use the PonderChat feature built into Ponder Quiz.
-If you don't have an account with Ponder Quiz, you have the ability to make one on the login page. The signup process for an Ponder Quiz account is very simple and requires minimal information. 
-NOTE: If you have problems with the signup process at any time, do not hesitate to contact the Ponder Development Team at ponderquiz123@gmail.com.
-NOTE: If you forget your login credentials, do not hesitate to contact the Ponder Development Team at ponderquiz123@gmail.com as we can help to recover your account.
+<p>There are many ways to use Ponder Quiz. You can continue as a guest from the login screen, this will limit functionality however as you cannot use PonderChat without an Ponder Quiz account. You also have the option to login using a Ponder Quiz account, this is the only way to use the PonderChat feature built into Ponder Quiz.</p>
+<p>If you don't have an account with Ponder Quiz, you have the ability to make one on the login page. The signup process for an Ponder Quiz account is very simple and requires minimal information.</p> 
+* NOTE: If you have problems with the signup process at any time, do not hesitate to contact the Ponder Development Team at ponderquiz123@gmail.com.
+* NOTE: If you forget your login credentials, do not hesitate to contact the Ponder Development Team at ponderquiz123@gmail.com as we can help to recover your account.
 
