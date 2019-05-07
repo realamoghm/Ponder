@@ -75,3 +75,22 @@ There are many ways to use Ponder Quiz. You can continue as a guest from the log
 If you don't have an account with Ponder Quiz, you have the ability to make one on the login page. The signup process for an Ponder Quiz account is very simple and requires minimal information.
 * NOTE: If you have problems with the signup process at any time, do not hesitate to contact the Ponder Development Team at ponderquiz123@gmail.com.
 * NOTE: If you forget your login credentials, do not hesitate to contact the Ponder Development Team at ponderquiz123@gmail.com as we can help to recover your account.
+
+We have also included sample accounts in this document for evaluation purposes.
+
+STANDARD Accounts:
+------------------
+Email: marysue@testaccount.com
+Password: password
+------------------
+Email: patriciajohnson@test.com
+Password: password
+------------------
+Email: tommyriddle@testaccount.com
+Password: password
+------------------
+Email: michaelmcdonald@testaccount.com
+Password: password
+------------------
+
+* NOTE: If you try to login/signup into Ponder Quiz without an Internet connection, you may experience errors as the login/signup information has to connect to an external server. Please make sure you have an ACTIVE Internet connection.
